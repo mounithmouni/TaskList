@@ -21,4 +21,4 @@ This is a simple Task List Web Application built with React. Users can add, edit
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/task-list-app.git
+     npm install
