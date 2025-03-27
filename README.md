@@ -1,12 +1,24 @@
-# React + Vite
+# Task List Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Task List Web Application built with React. Users can add, edit, and delete tasks. The tasks are stored in the browser's `localStorage` to persist data across page reloads.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add tasks**: Users can add new tasks to the list.
+- **Edit tasks**: Users can click the "Edit" button to modify an existing task.
+- **Delete tasks**: Users can click the "Delete" button to remove a task from the list.
+- **Persistence**: The task list is stored in the browser's `localStorage`, so the tasks remain even after page reloads or browser restarts.
+- **Responsive design**: The app is responsive and works well on different screen sizes.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling the components.
+- **localStorage**: To persist tasks data on the browser.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/task-list-app.git
